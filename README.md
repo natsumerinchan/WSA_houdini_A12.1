@@ -1,4 +1,4 @@
-In this repository, you will find a bash script used to exract and pack houdini files in to magisk module.
+In this repository, you will find a bash script used to extract and pack houdini files in to magisk module.
 
 ### How to use?
 - First thing you need to do is grabbing the installer package of the Windows Subsystem for Android
@@ -10,12 +10,12 @@ To do so;
 - Use the very bottom (with biggest file size) link to Download ".msixbundle" file
 
 ### What to do with the ".msixbundle" file?
-- Since this repository intended to exract houdini from it, you can do it, so;
+- Since this repository intended to extract houdini from it, you can do it, so;
 - Make sure you are running a linux envirounment, if so;
-- Get **wsa_houdini_exract.sh** file from this repository.
+- Get **wsa_houdini_extract.sh** file from this repository.
 - Once you put the script and msixbundle together in a directory, run the command like below and let script to take the rest;
 ```
-sudo sh wsa_houdini_exractor.sh MicrosoftCorporationII.WindowsSubsystemForAndroid_*_neutral_~_*.Msixbundle  
+sudo sh wsa_houdini_extractor.sh MicrosoftCorporationII.WindowsSubsystemForAndroid_*_neutral_~_*.Msixbundle  
 ```
 
 ### How to use the magisk module?
