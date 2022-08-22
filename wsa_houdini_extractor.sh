@@ -42,7 +42,7 @@ if ! [ -a $wsa_bundle ];
 fi
 
 
-###Try exracting msix from given file
+###Try exyracting msix from given file
 if [[ $(7z l $wsa_bundle | grep _x64_Release ) == *"_x64_Release"* ]];
 	then valid=true
 	else valid=false
@@ -57,20 +57,20 @@ if [ $valid == "true" ]
 		cd $workdir
 		
 		if ! [ -a $msix_file ];
-			then echo -e "$red-Exraction failed! $nocolor"  && exit 1
+			then echo -e "$red-Extraction failed! $nocolor"  && exit 1
 		fi
 	else
 		echo -e "$red-Invalid file$nocolor" $'\n' && exit 1
 fi
 
 
-###Try exracting vendor.img from msix
+###Try extracting vendor.img from msix
 echo -e "-Extracting vendor.img from msix ..." $'\n'
 7z e $msix_file -y -oimages vendor.img &> /dev/null
 
 
 if ! [ -a images/vendor.img ];
-	then echo -e "$red-Exraction failed! $nocolor" && exit 1
+	then echo -e "$red-Extraction failed! $nocolor" && exit 1
 fi
 
 
