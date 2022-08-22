@@ -11,8 +11,8 @@ To do so;
 
 ### What to do with the ".msixbundle" file?
 - Since this repository intended to extract houdini from it, you can do it, so;
-- Make sure you are running a linux envirounment, if so;
-- Get **wsa_houdini_extract.sh** file from this repository.
+- Make sure you are running a linux environment, if so;
+- Get **wsa_houdini_extractor.sh** file from this repository.
 - Once you put the script and msixbundle together in a directory, run the command like below and let script to take the rest;
 ```
 sudo sh wsa_houdini_extractor.sh MicrosoftCorporationII.WindowsSubsystemForAndroid_*_neutral_~_*.Msixbundle  
