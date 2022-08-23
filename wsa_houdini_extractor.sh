@@ -36,6 +36,7 @@ if [ "$(ls -1 | grep $fname)" != $fname ]
 	then echo -e "-Please navigate to directory of this script." $'\n' && exit
 fi
 
+
 ###Check if given file exist
 if ! [ -a $wsa_bundle ];
 	then echo -e "-File not found" $'\n' && exit
@@ -156,6 +157,9 @@ ro.enable.native.bridge.exec=1
 ro.dalvik.vm.isa.arm64=x86_64
 ro.enable.native.bridge.exec64=1
 ro.dalvik.vm.native.bridge=libhoudini.so
+ro.system.product.cpu.abilist=x86_64,x86,arm64-v8a,armeabi-v7a,armeabi
+ro.system.product.cpu.abilist32=x86,armeabi-v7a,armeabi
+ro.system.product.cpu.abilist64=x86_64,arm64-v8a
 EOF
 
 
