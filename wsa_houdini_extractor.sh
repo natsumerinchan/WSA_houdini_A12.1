@@ -255,7 +255,7 @@ cp -fa -Z $mountdir/lib/arm/*		$p1/lib/arm/
 cp -fa -Z $mountdir/lib/arm/nb/*	$p1/lib/arm/nb/
 
 
-cp -fa -Z $mountdir/lib64/libhoudini.so	$p1/lib/
+cp -fa -Z $mountdir/lib64/libhoudini.so	$p1/lib64/
 cp -fa -Z $mountdir/lib64/arm64/*	$p1/lib64/arm64/
 cp -fa -Z $mountdir/lib64/arm64/nb/*	$p1/lib64/arm64/nb/
 
