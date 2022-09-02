@@ -25,3 +25,7 @@ sudo sh wsa_houdini_extractor.sh MicrosoftCorporationII.WindowsSubsystemForAndro
 
 ### What to do if script fails?
 - Feel free to open a new issue, pull request's are also welcome.
+
+### References
+- https://github.com/natsumerinchan/libhoudini-package
+- https://www.xda-developers.com/how-to-run-android-apps-on-any-windows-11-pc/
