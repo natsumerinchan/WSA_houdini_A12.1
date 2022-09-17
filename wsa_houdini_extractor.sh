@@ -164,7 +164,7 @@ EOF
 
 
 cat <<EOF >"service.sh"
-untill [[ "\$(getprop sys.boot_completed)" == "1" ]]; do sleep 1; done
+until [[ "\$(getprop sys.boot_completed)" == "1" ]]; do sleep 1; done
 
 	mount binfmt_misc -t binfmt_misc /proc/sys/fs/binfmt_misc
 	exec -- /system/bin/sh -c "echo ':arm_exe:M::\\\\x7f\\\\x45\\\\x4c\\\\x46\\\\x01\\\\x01\\\\x01\\\\x00\\\\x00\\\\x00\\\\x00\\\\x00\\\\x00\\\\x00\\\\x00\\\\x00\\\\x02\\\\x00\\\\x28::/system/bin/houdini:P' >> /proc/sys/fs/binfmt_misc/register"
