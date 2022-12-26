@@ -19,9 +19,10 @@ sudo sh wsa_houdini_extractor.sh MicrosoftCorporationII.WindowsSubsystemForAndro
 ```
 
 ### How to use the magisk module?
-- To install magisk modules, you need an android-x86 A12.1 build with magisk.
-- You can also install [initrd-magisk](https://github.com/HuskyDG/initrd-magisk) on your system.
-- Known compatible build : [Android-Generic (Gapps)](https://sourceforge.net/projects/blissos-dev/files/Android-Generic/PC/aosp/gapps/12L/)
+- To install magisk modules, you need an android-x86 build with same android version as WSA.
+- You can install [initrd-magisk](https://github.com/HuskyDG/initrd-magisk) on your system to install module.
+- Known compatible builds : [Test builds by HMTheBoy154](https://mega.nz/folder/nkYUXTgB#wvQYX938G3RYCzCGexitDg)
+- (Builds already contains houdini, you may use this script just to update houdini version.)
 
 ### What to do if script fails?
 - Feel free to open a new issue, pull request's are also welcome.
