@@ -147,7 +147,7 @@ name=houdini
 version=v1.0
 versionCode=1
 author=MrMiy4mo
-description=Houdini for android 12.1 exracted from windows subsystem for android.
+description=Houdini for android exracted from windows subsystem for android.
 EOF
 
 
