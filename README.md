@@ -33,3 +33,8 @@ sudo sh wsa_houdini_extractor.sh MicrosoftCorporationII.WindowsSubsystemForAndro
 ### References
 - https://github.com/natsumerinchan/libhoudini-package
 - https://www.xda-developers.com/how-to-run-android-apps-on-any-windows-11-pc/
+
+### Referenced at
+- https://www.reddit.com/r/linux_gaming/comments/v9dqwi/genshin_impact_on_waydroid/
+- https://ivonblog.com/posts/waydroid-android11-custom-images/
+- https://bbs.deepin.org/phone/en/post/246093
