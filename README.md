@@ -28,7 +28,7 @@ sudo sh wsa_houdini_extractor.sh MicrosoftCorporationII.WindowsSubsystemForAndro
 - Feel free to open a new issue, pull request's are also welcome.
 
 ### Notes
-- If you tried to run Genshin Impact but is crashed, then review [this](https://github.com/ilhan-athn7/WSA_houdini_A12.1/tree/master/GI_affinity_workaround) workaround.
+- If you tried to run Genshin Impact but is crashed, then review [this](https://github.com/ilhan-athn7/WSA_houdini_A12.1/tree/main/GI_affinity_workaround) workaround.
 
 ### References
 - https://github.com/natsumerinchan/libhoudini-package
