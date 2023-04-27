@@ -39,3 +39,4 @@ sudo sh wsa_houdini_extractor.sh MicrosoftCorporationII.WindowsSubsystemForAndro
 - https://www.reddit.com/r/linux_gaming/comments/v9dqwi/genshin_impact_on_waydroid/
 - https://ivonblog.com/posts/waydroid-android11-custom-images/
 - https://bbs.deepin.org/phone/en/post/246093
+- https://www.bilibili.com/video/BV1ZP4y1m7Mm
